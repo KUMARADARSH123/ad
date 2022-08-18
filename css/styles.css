@@ -1,0 +1,186 @@
+
+
+#title{
+    background-color: #fe4560;
+}
+
+#title .container-fluid{
+    padding-top:0px;
+}
+
+.title-image{
+    position: absolute;
+    width: 330px;
+    transform: rotate(25deg);
+   margin-left: 170px;
+   padding-top: 55px;
+
+}  
+
+@media (max-width:990.40px){
+    #title{
+        text-align: center;
+        
+    }
+    h1{
+        padding-top: 120px;
+    }
+     
+    .title-image{
+        margin-left: 0px;
+        position: relative;
+        width: 60%;
+        transform: rotate(0deg);
+      
+     }
+    .nav-item{
+
+        text-align: left;
+
+}}
+
+.www{
+
+    width: 50%;
+    line-height: 3rem;
+   }
+   
+h1{
+   padding-bottom: 20px;
+    font-family:bold;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color: #fff;
+
+
+}
+
+h2,h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container-fluid{
+    padding: 5% 15%;
+}
+
+
+
+#top{
+    padding-top: 15%;
+   
+}
+/* .....................navbar................. */
+
+
+.navbar{
+
+    height: 150px;
+} 
+
+
+#nav-item{
+    padding-left: 10%;
+    padding-right: 10%; 
+   
+}
+
+.nav-link{
+    color:rgb(211, 204, 204); 
+}
+.navbar-brand{
+    color: #fff;
+margin-right: 60%;
+margin-left: 2%;
+font-size: 2.4rem;
+ 
+}
+.nav-link:hover{
+    color:#fff;
+}
+
+/* ...............title............ */
+
+
+
+.btn{
+    font-size: 21px;
+    width: 10rem ;
+    height: 3.4rem;
+    margin: 5% 3% 5% 0;
+}
+
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;   
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+
+#testimonials{
+    
+    background-color: #ef8172;
+    
+}
+.testimonial-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   
+    
+}
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+.card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+
+
+#feature{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#cta{
+    background-color: #fe4560;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+#footer{
+    
+    text-align: center;
+}
+#l-icon{
+    margin: 25px 15px;
+}
+.last1{
+    padding-left: 240px;
+    width: 80%;
+    text-align: center;
+}
